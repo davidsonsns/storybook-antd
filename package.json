@@ -1,0 +1,25 @@
+{
+  "name": "story",
+  "version": "1.0.0",
+  "description": "Stories for AntDesign in RocketOn",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davidson Nascimento <davidson@rocketon.io> https://github.com/davidsonsns",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.12.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.4.1"
+  }
+}
