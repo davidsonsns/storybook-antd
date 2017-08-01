@@ -1,13 +1,13 @@
 {
   "name": "story",
   "version": "1.0.0",
-  "description": "Stories for AntDesign in RocketOn",
+  "description": "Stories for AntDesign",
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Davidson Nascimento <davidson@rocketon.io> https://github.com/davidsonsns",
+  "author": "Davidson Nascimento <davidsonsns@gmail.com> https://github.com/davidsonsns",
   "license": "ISC",
   "dependencies": {
     "antd": "^2.12.3",
