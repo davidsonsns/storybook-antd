@@ -10,16 +10,13 @@
   "author": "Davidson Nascimento <davidsonsns@gmail.com> https://github.com/davidsonsns",
   "license": "ISC",
   "dependencies": {
-    "antd": "^2.12.3",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "antd": "^3.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "@storybook/react": "^3.2.0",
-    "less": "^2.7.2",
-    "less-loader": "^4.0.5",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6",
+    "@storybook/react": "^3.3.6",
+    "babel-core": "^6.26.0",
     "webpack": "^3.4.1"
   }
 }
