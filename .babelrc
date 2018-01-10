@@ -1,0 +1,32 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false,
+                "targets": {
+                    "browsers": [
+                        "last 2 versions"
+                    ]
+                }
+            }
+        ],
+        "react",
+        "stage-3"
+    ],
+    "plugins": [
+        [
+            "transform-class-properties",
+            {
+                "spec": true
+            }
+        ],
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": "css"
+            }
+        ]
+    ]
+}
