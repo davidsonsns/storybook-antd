@@ -1,7 +1,6 @@
 import { configure } from '@storybook/react';
 
-import '../styles/index.scss'
-import '../styles/index.less'
+import 'antd/dist/antd.css';
 
 function loadStories() {
   require('../stories/index.js');
