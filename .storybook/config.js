@@ -1,8 +1,5 @@
 import { configure } from '@storybook/react';
 
-import '../styles/index.scss'
-import '../styles/index.less'
-
 function loadStories() {
   require('../stories/index.js');
   require('../stories/Button.js');
