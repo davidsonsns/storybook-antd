@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import Search from './Search';
+import AutoComplate from './AutoComplate';
 
 class DatePickerPage extends Component {
   render() { 
@@ -22,6 +23,7 @@ class DatePickerPage extends Component {
         <h2 className="title">Examples:</h2>
 
         <Search />
+        <AutoComplate />
 
       </Fragment>
     );

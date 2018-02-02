@@ -12,6 +12,7 @@ import Radio from './Radio';
 import Slider from './Slider';
 import Switch from './Switch';
 import Select from './Select';
+import Upload from './Upload';
 
 storiesOf('Data Entry', module)
   .add('AutoComplate', () => <AutoComplate />)
@@ -24,4 +25,5 @@ storiesOf('Data Entry', module)
   .add('Radio', () => <Radio />)
   .add('Slider', () => <Slider />)
   .add('Switch', () => <Switch />)
-  .add('Select', () => <Select />);
+  .add('Select', () => <Select />)
+  .add('Upload', () => <Upload />);
