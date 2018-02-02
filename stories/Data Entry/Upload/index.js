@@ -1,5 +1,9 @@
 import React, { Component, Fragment } from 'react';
 
+import Avatar from './Avatar';
+import PicturesWall from './PicturesWall';
+import PicturesList from './PicturesList';
+
 class UploadPage extends Component {
   render() { 
     return (
@@ -26,9 +30,13 @@ class UploadPage extends Component {
 
         <h2 className="title">Examples:</h2>
 
+        <Avatar />
+        <PicturesWall />
+        <PicturesList />
+
       </Fragment>
     );
   }
 }
  
-export default DatePickerPage;
+export default UploadPage;
