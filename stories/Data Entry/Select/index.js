@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
+import Search from './Search';
+
 class DatePickerPage extends Component {
   render() { 
     return (
@@ -18,6 +20,8 @@ class DatePickerPage extends Component {
         </ul>
 
         <h2 className="title">Examples:</h2>
+
+        <Search />
 
       </Fragment>
     );
