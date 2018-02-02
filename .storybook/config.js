@@ -1,10 +1,11 @@
 import { configure } from '@storybook/react';
+import '../css/style.css';
+import '../css/icons.css';
 
 function loadStories() {
-  require('../stories/index.js');
-  require('../stories/Button.js');
-  require('../stories/Input.js');
-  require('../stories/Notification.js');
+  require('../stories/General/');
+  require('../stories/Navigation/');
+  require('../stories/Data Entry/');
   // You can require as many stories as you need.
 }
 
