@@ -1,0 +1,73 @@
+.title {
+  margin: 25px;
+}
+
+h1.title {
+  font-size: 34px;
+  color: #444;
+}
+
+h2.title {
+  font-size: 26px;
+  color: #555;
+}
+
+h3.title {
+  font-size: 22px;
+  color: #666;
+}
+
+p.text {
+  margin: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+p.text .allotted {
+  padding: 3px;
+  margin-left: 4px;
+  line-height: 30px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+}
+
+li {
+  font-size: 16px;
+}
+
+.example {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.ex-title {
+  font-size: 24px;
+  color: #666;
+}
+
+.ex-toggle {
+  color: #999;
+  cursor: pointer;
+}
+
+.ex-toggle:hover {
+  text-decoration: underline;
+}
+
+/* ================================== */
+.global-search-wrapper {
+  width: 300px;
+}
+.global-search-wrapper .ant-input-suffix {
+  right: 0 !important;
+}
+
+/* =================================== */
+.ml20 {
+  margin-left: 20px !important;
+}
+
+.mb20{
+  margin-bottom: 20px !important;
+}

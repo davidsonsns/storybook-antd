@@ -1,0 +1,26 @@
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 800px;
+}
+
+.icon {
+  margin: 10px;
+  padding: 10px;
+  width: 11%;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #eee;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.icon span {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.icon:hover {
+  border-color: #aaa;
+}
