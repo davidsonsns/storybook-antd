@@ -5,7 +5,7 @@ import Type from './Type';
 import Autoset from './Autoset';
 import Badge from './Badge';
 
-class AutoComplatePage extends Component {
+class AvatarPage extends Component {
   state = {}
   render() { 
     return (
@@ -27,4 +27,4 @@ class AutoComplatePage extends Component {
   }
 }
  
-export default AutoComplatePage;
+export default AvatarPage;

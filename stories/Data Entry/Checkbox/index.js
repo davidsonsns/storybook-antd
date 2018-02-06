@@ -8,7 +8,6 @@ import CheckAll from './CheckAll';
 import Grid from './Grid';
 
 class CheckboxPage extends Component {
-  state = {}
   render() { 
     return (
       <Fragment>
