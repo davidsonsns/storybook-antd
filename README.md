@@ -10,9 +10,3 @@ npm run storybook
 ```
 
 SASS and LESS were inserted to meet the most needs
-
-### Todo
-
-- [ ] Insert all components
-- [ ] Insert eslint
-- [ ] Move components to folder and separate files
