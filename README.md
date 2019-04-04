@@ -2,11 +2,27 @@
 
 Repository created for the purpose of helping to change components using Ant Design quickly and easily.
 
-To start run the following commands
+### Getting Started
 
-```
-npm i
-npm run storybook
+To start run the following commands:
+
+```sh
+# clone this repository
+git clone https://github.com/storybooks/storybook.git
+
+# enter in the folder
+cd storybook-antd
+
+# install the dependencies
+yarn
+
+# run the project
+yarn storybook
 ```
 
-SASS and LESS were inserted to meet the most needs
+Open the url [http://localhost:9002](http://localhost:9002) in your browser.
+
+### References
+
+- [Storybook](https://storybook.js.org/)
+- [Antd](https://ant.design/)
