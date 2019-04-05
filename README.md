@@ -8,7 +8,7 @@ To start run the following commands:
 
 ```sh
 # clone this repository
-git clone https://github.com/storybooks/storybook.git
+git clone https://github.com/davidsonsns/storybook-antd.git
 
 # enter in the folder
 cd storybook-antd
